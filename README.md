@@ -4,7 +4,7 @@ Repositório criado para a **[competição do Kaggle](https://www.kaggle.com/com
 <img src='https://github.com/lucaslealx/HousePrices/blob/main/img/img1.png' />
 
 O histórico dos resultados é mostrado abaixo:
-
+<img src='https://github.com/lucaslealx/HousePrices/blob/main/img/img2.png' />
 
 
 ## [Etapa 1: Primeiro modelo](https://github.com/lucaslealx/HousePrices/blob/main/Etapa1.ipynb)
@@ -37,6 +37,11 @@ O histórico dos resultados é mostrado abaixo:
   - Para a primeira (_1) o **score público do Kaggle foi de 0,15467**
   - Para a segunda base (_2), esse **score foi de 0,15225**
     - **Apenas com a mudança do modelo conseguimos um resultado melhor!**
-  - Para a primeira base (_1) o **score público do Kaggle foi de 0,15467**
- 
+
+## [Etapa 5: Melhorando os parâmetros](https://github.com/lucaslealx/HousePrices/blob/main/Etapa5.ipynb)
+- Agora utilizamos o **GridSearchCV** para determinar os **melhores parâmetros** para os 2 modelos que utilizamos na etapa anterior
+- Como o RandomForest teve um menor erro quadrático e o XGBoost um menor erro absoluto, testamos os 2 modelos nos dados de teste, resultando em:
+   - Para o **RandomForest**: 0,15268
+   - Para o **XGBoost**: 0,14943
+     - **Para os dados de teste, o XGBoost com os parâmetros otimizados gerou o melhor resultado!**
      
